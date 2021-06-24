@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway" sans-serif;
+}
+
+body {
+
+}
+nav {
+  display:flex;
+  position: fixed;
+  background-color: rgb(0, 162, 45);
+  width: 100%;
+}
+.nav-item {
+  text-align: center;
+  flex-grow: 1;
+  padding: 20px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#showcase{
+  background-image: url('jacks.jpg');
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 0 20px;
+}
+#showcase h1 {
+  font-size: 50px;
+}
+
+#showcase .button {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(0, 162, 45);
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+#showcase .button:hover {
+  cursor: pointer;
+  transition: 1s ease;
+}
+
+img {
+  width: 100%;
+  margin-top: 50px;
+}
+
+  
